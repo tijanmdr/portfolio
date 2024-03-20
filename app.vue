@@ -1,12 +1,14 @@
 <template>
-  <div>
+  <div class="h-screen p-5">
     <NuxtLayout>
       <Header />
       <NuxtLoadingIndicator />
-      <NuxtPage />
+      <NuxtPage class="min-h-screen"/>
+      <Footer />
     </NuxtLayout>
   </div>
 </template>
 <script setup lang="ts">
 import Header from "~/layouts/header.vue";
+import Footer from "~/layouts/footer.vue";
 </script>
