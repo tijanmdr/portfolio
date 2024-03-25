@@ -30,9 +30,16 @@
       </article>
     </div>
   </div>
+  <span @click="getHere">Click me</span>
 </template>
 
 <script setup>
+
+import {useRouter} from "vue-router";
+const router = useRouter()
+function getHere() {
+  router.push('/')
+}
 const posts = [
 
 
