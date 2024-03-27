@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.linkHover:hover {
+.router-link-active {
     color: blue;
-    text-decoration: underline;
+    opacity: 80%;
 }
