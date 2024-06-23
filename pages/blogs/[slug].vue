@@ -56,4 +56,10 @@
   </div>
 </template>
 <script setup lang="ts">
+import {CloudArrowUpIcon, LockClosedIcon, ServerIcon} from "@heroicons/vue/24/outline";
+
+useHead
+({
+  title: 'Boost your conversion rate | Tijan Manandhar',
+})
 </script>

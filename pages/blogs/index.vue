@@ -34,15 +34,17 @@
 </template>
 
 <script setup>
-
 import {useRouter} from "vue-router";
+
+useHead({
+  title: 'Blog List | Tijan Manandhar',
+})
+
 const router = useRouter()
 function getHere() {
   router.push('/')
 }
 const posts = [
-
-
   {
     id: 1,
     title: 'Boost your conversion rate',

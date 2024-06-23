@@ -49,5 +49,9 @@
   </div>
 </template>
 <script setup lang="ts">
+useHead
+({
+  title: 'Tijan Manandhar',
+})
 import {MapPinIcon} from "@heroicons/vue/24/outline";
 </script>

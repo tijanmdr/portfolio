@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'My App',
+  title: 'Contact Me | Tijan Manandhar',
   meta: [
     {name: 'contact', content: 'Contact with me to work with me.'}
   ],
