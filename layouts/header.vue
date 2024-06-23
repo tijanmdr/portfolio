@@ -52,7 +52,6 @@ import { ref } from 'vue'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Blog', href: '/blogs' },
-  { name: 'Contact Me', href: '/contact' },
 ]
 
 import {
