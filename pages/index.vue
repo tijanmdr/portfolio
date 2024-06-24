@@ -1,5 +1,5 @@
 <template>
-  <div class="relative isolate px-6 pt-14 lg:px-8">
+  <div class="relative isolate px-6 pt-14 lg:px-8 font-mono">
     <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
       <div
           class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
@@ -10,9 +10,9 @@
         <div class="portrait flex justify-center pb-10">
           <img src="/img/portrait.webp" alt="" class="sm:w-1/3 max-sm:w-2/5 w-full rounded-full">
         </div>
-        <h1 class="text-4xl font-mono tracking-tight text-gray-700 sm:text-1xl font-bold"><span class="text-gray-900">Tijan</span>
+        <h1 class="text-4xl tracking-tight text-gray-700 sm:text-1xl font-bold"><span class="text-gray-900">Tijan</span>
           Manandhar</h1>
-        <p class="mt-6 text-xl leading-8 text-gray-600 font-mono">Web Developer<br>Canberra, Australia</p>
+        <p class="mt-6 text-xl leading-8 text-gray-600">Fullstack Developer / Co-organizer @ GDG Canberra<br>Canberra, Australia</p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
           <!-- Github -->
           <a class="[&>svg]:h-5 [&>svg]:w-5" href="https://github.com/tijanmdr" target="_blank">
@@ -36,22 +36,15 @@
                   d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
             </svg>
           </a>
+          <!-- Unsplash -->
+          <a href="https://unsplash.com/tijanmdr" target="_blank" class="[&>svg]:h-5 [&>svg]:w-5">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor">
+          <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+          <path d="M448 230.2V480H0V230.2H141.1V355.1H306.9V230.2zM306.9 32H141.1V156.9H306.9z" />
+          </svg>
+          </a>
         </div>
       </div>
     </div>
-    <div
-        class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-        aria-hidden="true">
-      <div
-          class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
-          style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"/>
     </div>
-  </div>
 </template>
-<script setup lang="ts">
-useHead
-({
-  title: 'Tijan Manandhar',
-})
-import {MapPinIcon} from "@heroicons/vue/24/outline";
-</script>

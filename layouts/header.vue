@@ -1,5 +1,5 @@
 <template>
-  <header class="absolute inset-x-0 top-0 z-50">
+  <header class="absolute inset-x-0 top-0 z-50 font-mono">
     <link rel="icon" type="image/x-icon" href="fav.webp">
     <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
@@ -52,6 +52,7 @@ import { ref } from 'vue'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Blog', href: '/blogs' },
+  { name: 'About Me', href: '/about' },
 ]
 
 import {
