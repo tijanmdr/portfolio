@@ -12,7 +12,7 @@
     <p>👩‍💻 A proud GDG Canberra co-organizer.</p>
   </div>
   <div class="flex justify-center px-10 max-lg:order-1 max-lg:w-1/2 max-md:w-full lg:w-1/3">
-    <img class="rounded-full" src="https://th.bing.com/th/id/OIP.FDbWVuNc7dA-5WAPXW9wZAHaJN?rs=1&pid=ImgDetMain" />
+    <img class="rounded-full" src="/img/portrait.webp" />
   </div>
 </div>
 
