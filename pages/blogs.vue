@@ -1,6 +1,6 @@
 <template>
   <div class="font-mono">
-    <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+    <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-4">
       <a :href="post.url" target="_blank" v-for="post in _posts" :key="post.id" class="flex max-w-xl flex-col items-start" v-if="_posts.length">
       <div class="image flex">
         <img :src="post.cover_image" alt="" v-if="post.cover_image">
