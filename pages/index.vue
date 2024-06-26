@@ -8,14 +8,15 @@
     <div class="mx-auto max-w-2xl md:py-10 max-md:py-0">
       <div class="text-center">
         <div class="portrait flex justify-center pb-10">
-          <img src="/img/portrait.webp" alt="" class="sm:w-1/3 max-sm:w-2/5 w-full rounded-full">
+          <img src="/img/portrait.webp" alt="" class="sm:w-1/2 max-sm:w-3/5 w-full rounded-full">
         </div>
         <h1 class="text-4xl tracking-tight text-gray-700 sm:text-1xl font-bold"><span class="text-gray-900">Tijan</span>
           Manandhar</h1>
-        <p class="mt-6 text-xl leading-8 text-gray-600">Fullstack Developer / Co-organizer @ GDG Canberra<br>Canberra, Australia</p>
-        <div class="mt-10 flex items-center justify-center gap-x-6">
+        <p class="mt-10 text-xl leading-8 text-gray-600">Fullstack Developer / Co-organizer @ GDG Canberra<br>Canberra,
+          Australia</p>
+        <div class="mt-12 flex items-center justify-center gap-x-10">
           <!-- Github -->
-          <a class="[&>svg]:h-5 [&>svg]:w-5" href="https://github.com/tijanmdr" target="_blank">
+          <a class="[&>svg]:h-10 [&>svg]:w-10" href="https://github.com/tijanmdr" target="_blank">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -26,25 +27,27 @@
             </svg>
           </a>
           <!-- Linkedin -->
-          <a href="https://linkedin.com/in/tijanmdr" target="_blank" class="[&>svg]:h-5 [&>svg]:w-5">
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 448 512">
+          <a href="https://linkedin.com/in/tijanmdr" target="_blank" class="[&>svg]:h-10 [&>svg]:w-10">
+            <svg class="text-[#0a66c2]"
+                 xmlns="http://www.w3.org/2000/svg"
+                 fill="currentColor"
+                 viewBox="0 0 448 512">
               <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
               <path
-                  d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                  d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/>
             </svg>
           </a>
           <!-- Unsplash -->
-          <a href="https://unsplash.com/tijanmdr" target="_blank" class="[&>svg]:h-5 [&>svg]:w-5">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor">
-          <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-          <path d="M448 230.2V480H0V230.2H141.1V355.1H306.9V230.2zM306.9 32H141.1V156.9H306.9z" />
-          </svg>
+          <a href="https://unsplash.com/tijanmdr" target="_blank" class="[&>svg]:h-10 [&>svg]:w-10">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor">
+              <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M448 230.2V480H0V230.2H141.1V355.1H306.9V230.2zM306.9 32H141.1V156.9H306.9z"/>
+            </svg>
           </a>
         </div>
       </div>
     </div>
-    </div>
+  </div>
 </template>
+<script setup lang="ts">
+</script>
